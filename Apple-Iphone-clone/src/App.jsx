@@ -1,11 +1,14 @@
 
 import './App.css'
+import BatterySection from './sections/BatterySection'
+import { GlobalStyle } from './styles/GlobalStyle'
 
 function App() {
  
   return (
     <>
-     <h1>hello</h1>
+      <GlobalStyle/>
+      <BatterySection/>
     </>
   )
 }
