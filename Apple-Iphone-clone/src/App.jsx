@@ -1,6 +1,9 @@
 
 import './App.css'
 import BatterySection from './sections/BatterySection'
+import DesignSection from './sections/DesignSection'
+import HeroSection from './sections/HeroSection'
+import Quote from './sections/Quote'
 import { GlobalStyle } from './styles/GlobalStyle'
 
 function App() {
@@ -9,6 +12,9 @@ function App() {
     <>
       <GlobalStyle/>
       <BatterySection/>
+      <HeroSection/>
+      <DesignSection/>
+      <Quote/>
     </>
   )
 }
