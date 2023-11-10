@@ -122,15 +122,13 @@ const ProcessorSection = () => {
       </Processor>
       <Text>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut omnis,
-          quaerat aliquid optio veniam.
+          All-day battery life and up to 23 hours of video playback
+          Vital safety technology — Crash Detection calls for help when you can’t
+          A16 Bionic, the ultimate smartphone chip. Superfast 5G cellular
         </span>
         <span>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-          Reprehenderit numquam quae nisi, dolore cum voluptatem cumque quo sit,
-          consequuntur necessitatibus iste fuga assumenda deserunt aut.
+          Industry-leading durability features with Ceramic Shield and water resistance
+          iOS 16 offers even more ways to personalise, communicate and share
         </span>
       </Text>
     </Section>

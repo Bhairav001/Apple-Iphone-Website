@@ -160,15 +160,16 @@ const DisplaySection = () => {
       <TextBlockRight>
         <Title>Super Ratine XDR Display</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+          48MP Main camera for up to 4x greater resolution
+          Cinematic mode now in 4K Dolby Vision up to 30 fps
+          Action mode for smooth, steady, handheld videos
         </Text>
       </TextBlockRight>
       <TextBlockLeft ref={container}>
         <Title>Big is better</Title>
         <Text>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Necessitatibus dignissimos ipsam.
+          15.54 cm (6.1-inch) Super Retina XDR display featuring Always-On and ProMotion
+          Dynamic Island, a magical new way to interact with iPhone
         </Text>
       </TextBlockLeft>
 
