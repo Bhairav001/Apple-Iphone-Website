@@ -1,5 +1,5 @@
 
-import './App.css'
+
 import { ColorContextProvider } from './context/ColorContext'
 import BatterySection from './sections/BatterySection'
 import CameraSection from './sections/CameraSection'
@@ -17,7 +17,7 @@ function App() {
  
   return (
     <>
-      <GlobalStyle/>
+     <GlobalStyle/>
       <PhoneModel/>
       <HeroSection/>
       <DesignSection/>
@@ -26,9 +26,9 @@ function App() {
       <ProcessorSection/>
       <BatterySection/>
       <ColorContextProvider>
-         <ColorSection/>
-         <CameraSection/>
-         <PricingSection/>
+        <ColorSection />
+        <CameraSection />
+        <PricingSection />
       </ColorContextProvider>
     </>
   )
