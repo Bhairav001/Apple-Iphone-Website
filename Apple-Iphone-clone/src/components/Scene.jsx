@@ -8,6 +8,7 @@ export default function Model({ ...props }) {
   const group = useRef();
   const { nodes, materials } = useGLTF("/scene.gltf");
 
+
   let camera = useThree((state) => state.camera);
   let scene = useThree((state) => state.scene);
 
@@ -28,14 +29,12 @@ export default function Model({ ...props }) {
   
 mm.add({
 
-  // set up any number of arbitrarily-named conditions. The function below will be called when ANY of them match.
   isDesktop: `(min-width: 48em)`,
   isMobile: `(max-width:48em`,
   
 
 }, (context) => {
 
-  // context.conditions has a boolean property for each condition defined above indicating if it's matched or not.
   let { isDesktop, isMobile } = context.conditions;
 
   let t1 = gsap.timeline({
@@ -45,7 +44,6 @@ mm.add({
       endTrigger: "#battery",
       end: "top top",
       scrub: 1,
-      // markers: true,
     },
   });
 

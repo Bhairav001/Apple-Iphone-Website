@@ -117,7 +117,7 @@ const Quote = () => {
         <Text delay="1.2s">
           {" "}
           <span>
-            &nbsp;&nbsp;&nbsp;will somehow connect in your future. &#8221;
+            &nbsp;&nbsp;&nbsp;will some how connect in your future. &#8221;
           </span>{" "}
         </Text>
         <Text delay="1.6s">

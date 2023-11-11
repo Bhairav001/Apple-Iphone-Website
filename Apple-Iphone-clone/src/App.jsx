@@ -1,5 +1,3 @@
-
-
 import { ColorContextProvider } from './context/ColorContext'
 import BatterySection from './sections/BatterySection'
 import CameraSection from './sections/CameraSection'

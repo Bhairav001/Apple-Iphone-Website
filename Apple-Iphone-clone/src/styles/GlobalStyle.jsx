@@ -4,6 +4,7 @@ import fontRegular from "../assets/fonts/SourceSansPro-Regular.ttf";
 
 
 
+
 export const GlobalStyle = createGlobalStyle`
 
 *,*::before,*::after{

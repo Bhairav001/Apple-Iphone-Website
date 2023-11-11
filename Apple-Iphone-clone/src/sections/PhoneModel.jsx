@@ -5,6 +5,7 @@ import { AdaptiveDpr, AdaptiveEvents, Environment } from "@react-three/drei";
 import Model from "../components/Scene";
 import { Suspense } from "react";
 
+
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
